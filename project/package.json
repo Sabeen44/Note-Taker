@@ -1,7 +1,13 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "",
+  "engines": {
+    "npm": "9.x"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "description": "note-app",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
