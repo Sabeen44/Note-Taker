@@ -56,6 +56,7 @@ app.post("/api/notes", (req, res) => {
             if (err) console.log(err);
             else {
               console.log(`note ${newNote.text} received`);
+              res.redirect("/notes");
             }
           }
         );
@@ -77,6 +78,7 @@ app.delete("/api/notes/:id", (req, res) => {
         if (err) console.log(err);
         else {
           console.log("note deleted");
+          res.redirect("/notes");
         }
       });
     }
