@@ -53,6 +53,12 @@ fs.readFile(`./db/db.json`, "utf8", (err, data) => {
 
 ## Deployed Link
 
+https://gentle-refuge-50264.herokuapp.com/
+
+## Demo
+
+https://drive.google.com/file/d/1PkOAhIlzr9LrK_s2fcb8spqylHmuT35s/view
+
 ## Question
 
 For questions, you may contact me via LinkedIn:
